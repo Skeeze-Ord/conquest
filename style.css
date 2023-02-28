@@ -1,0 +1,319 @@
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url(./fonts/PlayfairDisplay.ttf);
+}
+
+body {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1b1a17;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #fdfdfb;
+  color: #1b1a17;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 85px;
+  align-items: center;
+}
+
+#title {
+  font-size: 26px;
+  font-family: "PlayfairDisplay";
+  color: #555248;
+  letter-spacing: 0.14em;
+}
+
+#logo {
+  display: flex;
+  gap: 5px;
+}
+
+#logo > img {
+  width: 26px;
+}
+
+#menu > ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20%;
+  list-style-type: none;
+}
+
+#menu > ul > li {
+  cursor: pointer;
+}
+
+.headerIcon {
+  width: 26px;
+  cursor: pointer;
+}
+
+.headerIcon-heart {
+  width: 42px;
+  cursor: pointer;
+}
+
+/* main content */
+#main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("./images/bg-watch-main.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.line {
+  position: absolute;
+  border-bottom: 2px solid #8b8371;
+  width: 50px;
+}
+
+#collection {
+  margin-left: 60px;
+}
+
+#spring-summer {
+  font-size: 45px;
+  font-family: "Playfair Display";
+}
+
+.line-2019 {
+  margin-top: 30px;
+  margin-left: -60px;
+}
+
+#collection-text {
+  font-family: "Playfair Display";
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+#collection-description {
+  padding-bottom: 90px;
+  padding-top: 40px;
+  color: rgba(27, 26, 23, 0.82);
+}
+
+#collection-show {
+  background: #444240;
+  padding: 28px 38px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#watch img {
+  margin-left: 200px;
+}
+
+#watch-price {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 70px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.line-price {
+  margin-top: 111px;
+  margin-left: 150px;
+}
+
+#watch-diam {
+  position: absolute;
+  margin-top: 700px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.line-diam {
+  margin-left: 650px;
+  margin-top: -97px;
+}
+
+/* popular models */
+#popular {
+  padding-top: 80px;
+}
+
+#popular-title {
+  font-size: 36px;
+  font-family: "Playfair Display";
+  text-align: center;
+}
+
+#popular-all {
+  text-align: right;
+  margin-right: 5em;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  color: #444240;
+}
+
+#example {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 80px;
+  height: 720px;
+}
+
+#watch-ex {
+  text-align: left;
+  padding-bottom: 10px;
+  font-family: "Playfair Display";
+  color: rgba(27, 26, 23, 0.82);
+  letter-spacing: 0.03em;
+  font-weight: 700;
+}
+
+#watch-price,
+#watch-2-price,
+#watch-3-price {
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(27, 26, 23, 0.82);
+  padding-bottom: 2px;
+}
+
+.line-more {
+  border-bottom: 1px solid #8b8371;
+  width: 30px;
+  position: absolute;
+  margin-top: 30px;
+}
+
+.more {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 45px;
+  font-family: "Playfair Display";
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* quality */
+#quality {
+  display: flex;
+  justify-content: center;
+  gap: 170px;
+  background-image: url("./images/bg-quality.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 520px;
+}
+
+.quality-title {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.quality-text {
+  width: 450px;
+  color: #444240;
+  font-size: 18px;
+  padding-bottom: 65px;
+}
+
+.quality-show {
+  background: #d4b098;
+  padding: 26px 38px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.page {
+  position: absolute;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 450px;
+  margin-right: 300px;
+}
+
+/* news */
+#news {
+  display: flex;
+  justify-content: space-evenly;
+  height: 630px;
+}
+
+.news-title {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  padding-top: 220px;
+  padding-bottom: 40px;
+}
+
+.news-text {
+  font-size: 18px;
+  color: #444240;
+  padding-bottom: 120px;
+  width: 420px;
+}
+
+.bold {
+  font-weight: bold;
+  color: #262421;
+}
+
+.socialNetworks img {
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  align-items: center;
+}
+
+.mini-pic {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  background: #444240;
+  height: 275px;
+  align-items: center;
+}
+
+footer li {
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.75);
+  padding-bottom: 15px;
+}
+
+.footer-logo {
+  font-size: 16px;
+  font-family: "PlayfairDisplay";
+  color: #555248;
+  letter-spacing: 0.07em;
+  color: #ffffff;
+  display: flex;
+  padding-bottom: 32px;
+  gap: 10px;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 40px;
+  margin-bottom: 18px;
+}
